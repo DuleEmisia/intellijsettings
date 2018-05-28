@@ -1,0 +1,12 @@
+<templateSet group="JavaScript">
+  <template name="db" value="debugger;&#10;$END$" description="insert debugger" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wh" value="var current;&#10;while (item &lt; array.length) {&#10;    current = array[item];&#10;    item++;&#10;    }" description="insert while loop" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

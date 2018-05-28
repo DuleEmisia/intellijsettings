@@ -1,0 +1,7 @@
+<templateSet group="Dule_custom">
+  <template name="d_test_init" value="var view;&#10;var controller;&#10;var viewModel;&#10;&#10;beforeEach(function(){&#10;view = me.appTestObj;&#10;controller = view.getController();&#10;viewModel = view.getViewModel();&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
